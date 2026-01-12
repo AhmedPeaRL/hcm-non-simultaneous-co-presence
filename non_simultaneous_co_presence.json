@@ -1,0 +1,27 @@
+{
+  "layer": "non_simultaneous_co_presence",
+
+  "principle": {
+    "shared_field": true,
+    "shared_time": false
+  },
+
+  "allowed": {
+    "agents_encounter_field_independently": true,
+    "temporal_isolation": true,
+    "no_awareness_of_others": true
+  },
+
+  "disallowed": {
+    "synchronization": true,
+    "coordinated_sessions": true,
+    "mutual_visibility": true
+  },
+
+  "temporal_posture": {
+    "no_now": true,
+    "no_before_after_relation": true
+  },
+
+  "definition": "Multiple agents may encounter the same presence without sharing time, awareness, or sequence."
+}
